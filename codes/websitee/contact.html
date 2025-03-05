@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Taytay Rizal Tours</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+    
+        
+        .contact-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+           
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: thistle;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: skyblue;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <body text="justify">
+            <img class="logo" src="logo.png" alt="logo">
+            <nav>
+              <ul class="nav-links">
+                  <li><a href="structure.html">Home</a></li>
+                  <li><a href="explore.html">Explore</a></li>
+                  <li><a href="services.html">Services</a></li>
+              </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>Contact</button></a>
+          </header>
+    <div class="contact-container">
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Contact us at info@taytaytours.com | Taytay Rizal Tours © 2024</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+li, a, button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(31, 50, 66);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: skyblue;
+}
+
+   
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-link:hover{
+    color: blue;
+}
+
+.nav-links{
+    color: rgba(21, 21, 238, 0.945);
+    border: 10px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 50x;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:thistle;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Making the images wrap properly in rows */
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Each container for an image */
+.container, .c {
+    position: relative;
+    width: 350px;
+    height: 400px;
+}
+
+/* Hover effect for each individual image */
+.container:hover .text,
+.c:hover .t {
+    visibility: visible;
+}
+
+/* Image styles */
+.image, .i {
+    width: 350px;
+    height: 400px;
+}
+
+.image img, .i img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Text overlay effect */
+.text, .t {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+.text {
+    background: cornflowerblue;
+}
+
+.t {
+    background: thistle;
+}
+
+
+.holy img{
+    margin-top: 50%;
+    float: left;
+    width: 50px;
+}
+.f img{
+    display: flex;
+    justify-content: flex-end;
+}

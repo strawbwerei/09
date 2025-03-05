@@ -1,0 +1,146 @@
+/*nav*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+li, a, button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(31, 50, 66);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: skyblue;
+}
+
+   
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-link:hover{
+    color: blue;
+}
+
+.nav-links{
+    color: rgba(21, 21, 238, 0.945);
+    border: 10px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 50x;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:thistle;
+}
+/*home*/
+
+.video-container {
+    float: left;
+    margin: 100px;
+    width: 500px;
+    height: 300px;
+    margin-top: 0%;
+}
+
+.right img{
+    margin-top: 100%;
+}
+
+footer {
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#footer-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 700px; /* Matches footer height */
+    object-fit: cover;
+}
+
+.footer-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Keeps text readable */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+footer {
+        background: #2c3e50;
+        color: white;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .footer-about, .footer-links, .footer-contact {
+        width: 300px;
+        margin: 20px;
+    }
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-links ul li {
+        margin: 10px 0;
+    }
+    .footer-links ul li a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer-links ul li a:hover {
+        color: #27ae60;
+    }
+    .footer-bottom {
+        margin-top: 20px;
+        border-top: 1px solid white;
+        padding-top: 10px;
+    }
+
